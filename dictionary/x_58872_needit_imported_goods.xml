@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Imported Goods" max_length="40" name="x_58872_needit_imported_goods" type="collection"/>
+    <element label="Imported Goods" max_length="40" name="x_58872_needit_imported_goods" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="chalcedony" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element label="opaque" sequence="0" value="opaque"/>
+                <element label="translucent" sequence="1" value="translucent"/>
+                <element label="matte" sequence="2" value="matte"/>
+            </choice>
+        </element>
+    </element>
 </database>
